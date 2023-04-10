@@ -20,7 +20,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    startActivity(Intent(this@MainActivity, TaskManager::class.java))
+                    startActivity(Intent(this@MainActivity, BusinessCard::class.java))
                 }
             }
         }
